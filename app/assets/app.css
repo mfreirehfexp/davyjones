@@ -38,6 +38,9 @@ md-list .md-button {
 
 
 /* Primary content area */
+.appUsers{
+  height: 100%;
+}
 
 #content {
   overflow: hidden;

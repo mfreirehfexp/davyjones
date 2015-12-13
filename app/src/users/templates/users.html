@@ -1,0 +1,9 @@
+<md-icon md-svg-icon="{{ud.selected.avatar}}" class="avatar"></md-icon>
+<h2>{{ud.selected.name}}</h2>
+<p>{{ud.selected.content}}</p>
+
+
+<md-button class="contact" md-no-ink ng-click="ud.showContactOptions($event)" aria-label="Contact User">
+    <md-tooltip>Contact {{ ud.selected.name }}</md-tooltip>
+    <md-icon md-svg-icon="share"></md-icon>
+</md-button>
